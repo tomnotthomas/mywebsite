@@ -1,0 +1,39 @@
+#projects{
+  background-color: blue;
+  height: 70%;
+  display:flex;
+}
+
+.split-screen{
+  background-color: white;
+  border-style:solid;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
+
+
+#video-box{
+  width: 80%;
+  height: 50%;
+  background-color: aqua;
+}
+
+#description-box{
+  width:80%;
+  height:30%;
+  background-color: blue;
+}
+
+#github{
+  width:80%;
+  height:10%;
+  background-color: black;
+}
+
+#technologies-used{
+  width:80%;
+  height:10%;
+  background-color: brown;
+}

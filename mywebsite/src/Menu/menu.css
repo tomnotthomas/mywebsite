@@ -1,0 +1,51 @@
+
+#menu{
+  height:30%;
+}
+
+#menu-info-box{
+  height: 25%;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}
+
+
+#menu-h3{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  color: white;
+}
+
+#main-menu{
+  background-color: white;
+  height: 20%;
+  display:flex;
+  justify-content: center;
+}
+
+.main-menu-h2 {
+  display: flex;
+  flex-direction: row;
+  color:red;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+#portfolio-menu{
+  width: 100%;
+  height: 60%;
+  background-color: blueviolet;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.portfolio-menu-container{
+  width: 20vw;
+  height: 47%;
+  background-color: black;
+}
