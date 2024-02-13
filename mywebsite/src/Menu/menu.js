@@ -4,23 +4,30 @@ function Menu() {
   return (
     <div id='menu'>
       <div id='menu-info-box'>
-        <h3 id='menu-h3'>
-          Blending Full Stack Development with Cloud Technology
-        </h3>
+    
       </div>
-      <div>
+      <div id='main-menu-container'>
         <div id='main-menu'>
         <h2 className='main-menu-h2'>
-           About me
+           ABOUT ME
         </h2>
         <h2 className='main-menu-h2'>
-            My Projects        
+            MY PROJECTS        
         </h2>
         </div>
         <div id='portfolio-menu'>
-          <div className='portfolio-menu-container'></div>
-          <div className='portfolio-menu-container'></div>
-          <div className='portfolio-menu-container'></div>
+            <div className='image-container-menu'>
+              <img alt='cloud-cost-saving-app' src='../../media/housemeister.png'></img>
+            </div>
+
+
+          <div className='image-container-menu'>
+            <img  alt='cloud-cost-saving-app' src='../../media/docuai.png'></img>
+          </div>
+          <div className='image-container-menu'>
+          <img  alt='cloud-cost-saving-app' src='../../media/swiff.png'></img>
+
+          </div>
           
         </div>
       </div>

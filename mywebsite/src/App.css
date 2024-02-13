@@ -6,3 +6,16 @@
   flex-direction: column;
 }
 
+body{
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+
+}
+
+
+img{
+  object-fit: cover;
+  position: 50% 50%;
+}

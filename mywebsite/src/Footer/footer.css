@@ -1,3 +1,117 @@
 #footer{
   height:30%;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #0F0C24;
+  background: linear-gradient(#0F0C24 40%, #A350A3 41%, #0F0C24 60%);
+}
+
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+
+}
+ 
+.inner-wrapper {
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  margin: 0 auto;
+  perspective: 180px;
+  perspective-origin: 50% 40%;
+}
+ 
+.landscape {
+  position: absolute;
+  width: 200%;
+  left: -50%;
+  height: 60%;
+  bottom: -30%;
+  background-image: -webkit-linear-gradient(top, #A350A3 2px, transparent 2px), -webkit-linear-gradient(left, #CF33D9 2px, transparent 2px);
+  background-size: 50px 50px, 80px 80px;
+  background-position: -1px -1px, -1px -1px;
+  transform: rotateX(85deg);
+  animation: moveUp 5s infinite linear;
+  
+  overflow-x: hidden;
+}
+ 
+.nrw {
+  z-index: 50;
+}
+ 
+.footer-menu{
+height:20%;
+background-color: #0F0C24;;
+display: flex;
+flex-direction: row;
+justify-content:center;
+align-items: center;
+color: white;
+font-size:xx-large;
+z-index:10;
+border-top-style: solid;
+border-color:#A350A3;
+border-width: 5px;
+}
+ 
+.footer-item{
+  margin-top:2%;
+  position:relative;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  text-decoration: none;
+  color: #A350A3;
+  border-width: 5px;
+  font-size:xxX-large;
+}
+
+.footer-item:hover {
+  color:#CF33D9;
+  animation-duration: 0.01s;
+  animation-name: textflicker;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+
+
+
+@keyframes moveUp{
+  
+  0% {
+    background-position: -1px -1px, -1px -1px;
+  }
+  100% {
+    background-position: -50px -50px, -1px -1px;
+  }
+}
+ 
+@keyframes glow {
+  0% {
+    filter: drop-shadow(0 0 6px #A350A3) drop-shadow(0 0 6px #A350A3);
+  }
+  50% {
+    filter: drop-shadow(0 0 1px #A350A3) drop-shadow(0 0 1px #A350A3);
+  }
+  100% {
+    filter: drop-shadow(0 0 6px #A350A3) drop-shadow(0 0 6px #A350A3);
+  }
+}
+
+
+@keyframes textflicker {
+  from {
+    text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+  }
+  to {
+    text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+  }
 }
