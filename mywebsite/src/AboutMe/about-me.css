@@ -1,0 +1,79 @@
+.aboutme-container {
+  width: 90%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #0F0C24;
+  opacity: 80%;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace; /* Retro font */
+  border: 5px solid #A350A3;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  backdrop-filter: (0.5px);
+  z-index: 4;
+  margin-bottom: 5%;
+  box-sizing: border-box; /* Ensure padding and border are included in width calculation */
+}
+
+.aboutme-container h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.aboutme-container h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.aboutme-container p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.aboutme-container ul {
+  font-size: 18px;
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+.section {
+  padding: 10px;
+  border-bottom: 2px dashed #A350A3;
+}
+
+.section:hover {
+  background-color: rgba(163, 80, 163, 0.1);
+}
+
+.section-content {
+  display: none;
+}
+
+.section-content.show {
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutme-container h1 {
+    font-size: 28px;
+  }
+  .aboutme-container h2 {
+    font-size: 20px;
+  }
+  .aboutme-container p,
+  .aboutme-container ul {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .aboutme-container {
+    padding: 10px; /* Adjust padding for smaller screens */
+    border-width: 3px;
+    border-radius: 0;
+    margin-left: -0px;
+
+  }
+}

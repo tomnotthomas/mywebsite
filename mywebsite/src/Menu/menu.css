@@ -1,9 +1,13 @@
 
 #menu{
-  height:45%;
+  height:90%;
+  width:100vw;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   z-index:2;
+  margin-bottom: 5%;
 
 }
 
@@ -23,8 +27,7 @@
 }
 
 #main-menu{
-  background-color: white;
-  height: 15%;
+  height: 40%;
   display:flex;
   justify-content: center;
   z-index:2;
@@ -32,7 +35,7 @@
 }
 
 .main-menu-h2 {
-  font-size: xx-large;
+  font-size: 70px;
   display: flex;
   flex-direction: row;
   color:#A350A3;
@@ -40,33 +43,53 @@
   justify-content: center;
   align-items:center;
   background-color: #0F0C24;
-  z-index:2;
+  z-index:2;  
+
 
 }
+
+.main-menu-h2:hover{
+  animation-duration: 0.01s;
+  animation-name: textflicker;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes textflicker {
+  from {
+    text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
+  }
+  to {
+    text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+  }
+}
+
 
 #portfolio-menu{
   width: 100%;
-  height: 80%;
-  background-color: #A350A3;
+  height: 50vh;
   display: flex;
-  align-items: center;
   justify-content: space-around;
-  z-index:2;
-  border-top-style: solid;
-  border-color:white;
+  align-items: center;
+  z-index:5;
+  margin-bottom: 10%;
+  margin-top:5%;
 }
 
 .image-container-menu{
-  height:90%;
-  width:auto;
+  height:20vh;
+  width: 25vw;
   border-style:solid;
   border-color:white;
-  background-color: #0F0C24;
-
   border-radius: 5px;
   opacity:0.7;
   -webkit-transition: .2s ease-in-out;
 	transition: .2s ease-in-out;
+  object-fit: cover;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+
 }
 .image-container-menu:hover{
   opacity: 1;
@@ -90,8 +113,72 @@
 #main-menu-container{
   display:flex;
   flex-direction: column;
-  justify-content: end;;
+  justify-content: center;
+  height:40vh;
+  width:90%;
+  margin-top:10%;
+  background-color: #0F0C24;
+  border-radius:5px;
+  border-color:#A350A3;
+  border-style:solid;
+  border-width: 5px;
 }
 
 
+
+#img-cloud-cost-saving-app{
+  width:100%;
+  height: 20vh;
+
+}
   
+#document-analysis{
+  width:100%;
+  height: 20vh;
+}
+
+#cloud-gaming-platform{
+  width:100%;
+  height: 20vh;
+
+}
+
+.cloud-cost-saving-app-heading{
+margin-top:5%;
+color: #A350A3;
+}
+
+.docuai-heading{
+  margin-top:5%;
+  color:#A350A3;
+}
+
+.swiff-heading{
+  margin-top:5%;
+  color:#A350A3;
+}
+
+
+@media only screen and (max-width: 400px) {
+
+#portfolio-menu{
+  display:flex;
+  flex-direction:column;
+  
+}
+
+.image-container-menu{
+  width:80%;
+  margin-bottom:33px;
+  margin-left: -40px;
+}
+
+#main-menu-container{
+  height:1100px;
+  width:100%;
+}
+
+.main-menu-h2{
+  margin-left:-40px;
+}
+}
