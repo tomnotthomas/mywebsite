@@ -31,7 +31,7 @@ function Header() {
         <h1 className='header-h1-hello'>HEY I'M TOM</h1>
         <h1 className='header-h1-fullstack'>FULL-STACK DEVELOPER</h1>
       </div>
-      <img alt='Tom' src='../../media/tom.png'></img>
+      <img id='tom-img' alt='Tom' src='../../media/tom.png'></img>
       <div id="header"></div>
     </>
   );

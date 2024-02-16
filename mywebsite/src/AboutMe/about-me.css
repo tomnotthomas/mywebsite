@@ -73,7 +73,15 @@
     padding: 10px; /* Adjust padding for smaller screens */
     border-width: 3px;
     border-radius: 0;
-    margin-left: -0px;
+    margin-left: 18px;
 
   }
+}
+
+#linkedin-aboutme{
+  font-size: 30px;
+}
+
+#linkedin-content{
+  color: #ea36af;
 }

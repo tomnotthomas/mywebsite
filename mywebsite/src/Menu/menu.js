@@ -12,7 +12,11 @@ function Menu({onProjectSelect}) {
   const handleClick = (projectNumber) => {
     playSound();
     onProjectSelect(projectNumber);
-  }
+    window.scrollTo({
+      top: window.scrollY + window.innerHeight * 0.5,
+      behavior: 'smooth'
+    });
+    }
 
   return (
     <div id='menu'>

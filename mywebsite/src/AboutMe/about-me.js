@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { FaLinkedin } from "react-icons/fa";
+
 import './about-me.css';
 
 function AboutMe() {
@@ -80,9 +82,9 @@ function AboutMe() {
           <div>
       <ul>
         <li>Google Cloud Architect</li>
-        <li>Amazon Web services</li>
+        <li>AWS Solutions Architect Associate</li>
         <li>Azure 900</li>
-        <li>Scrum master advanced</li>
+        <li>Professional Scrum Master 2</li>
       </ul>
           </div>
         )}
@@ -90,7 +92,7 @@ function AboutMe() {
 
       <h2>Linkedin</h2>
       <p>Connect With Me</p>
-      <p>Would you like to know more about my professional experience? Then visit: <a href="linkedin.com/progressivist-tom">linkedin.com/progressivist-tom</a></p>
+      <p>Would you like to know more about my professional experience? Then visit <a id='linkedin-content' href="https://www.linkedin.com/in/progressivist-tom/">my LinkedIn</a></p>
 
      
     </div>

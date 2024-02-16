@@ -14,9 +14,31 @@ function Projects({project}) {
           title="Embedded youtube"
         />
     </div>
+    <div id='technologies-used'>
+      <div className='tech-icon'>
+        <img id='react-icon' alt='react' src='../../media/react.svg'></img>
+      </div>
+      <div className='tech-icon'>
+      <img id='express-icon'alt='express.js' src='../../media/Expressjs.png'></img>
+      </div>
+      <div className='tech-icon'>
+      <img id='mongo-db-icon' alt='mongodb' src='../../media/MongoDB_Logo.svg.png'></img>
+      </div>
+      <div className='tech-icon'>
+      <img id='typescript-icon' alt='typescript' src='../../media/Typescript_logo_2020.svg.png'></img>
+      </div>
+    </div>
+    <div id='github'>
+      <img id='github-logo-project' alt='github-logo' src='../../media/github-mark-white.svg'>
+      </img>
+      <h2 id='github-content-project'>
+        <a id='github-link' href='https://github.com/tomnotthomas/Docu.ai'>SHOW PROJECT IN GITHUB</a></h2>
+    </div>
   </div>
   <div className='split-screen'>
     <div id='description-box'>
+    <h2 className='description-font-h2'>Docu.ai: automate document analysis</h2>
+
       <p className='description-font'>I developed this proof of Concept (POC) for a large fintech company
          with the aim to automate document checks against specific criteria.
          We leverage Amazon's machine learning algorithms, specifically AMAZON
@@ -41,26 +63,7 @@ function Projects({project}) {
 
 
     </div>
-    <div id='technologies-used'>
-      <div className='tech-icon'>
-        <img id='react-icon' alt='react' src='../../media/react.svg'></img>
-      </div>
-      <div className='tech-icon'>
-      <img id='express-icon'alt='express.js' src='../../media/Expressjs.png'></img>
-      </div>
-      <div className='tech-icon'>
-      <img id='mongo-db-icon' alt='mongodb' src='../../media/MongoDB_Logo.svg.png'></img>
-      </div>
-      <div className='tech-icon'>
-      <img id='typescript-icon' alt='typescript' src='../../media/Typescript_logo_2020.svg.png'></img>
-      </div>
-    </div>
-    <div id='github'>
-      <img id='github-logo-project' alt='github-logo' src='../../media/github-mark-white.svg'>
-      </img>
-      <h2 id='github-content-project'>
-        <a id='github-link' href='https://github.com/tomnotthomas/Docu.ai'>SHOW PROJECT IN GITHUB</a></h2>
-    </div>
+   
   </div>
   </>
   );
@@ -76,9 +79,31 @@ function Projects({project}) {
           title="Embedded youtube"
         />
     </div>
+    <div id='technologies-used'>
+      <div className='tech-icon'>
+        <img id='react-icon' alt='react' src='../../media/vue.js.png'></img>
+      </div>
+      <div className='tech-icon'>
+      <img id='express-icon'alt='express.js' src='../../media/Expressjs.png'></img>
+      </div>
+      <div className='tech-icon'>
+      <img id='mongo-db-icon' alt='mongodb' src='../../media/MongoDB_Logo.svg.png'></img>
+      </div>
+      <div className='tech-icon'>
+      <img id='typescript-icon' alt='typescript' src='../../media/JavaScript-logo.png'></img>
+      </div>
+    </div>
+    <div id='github'>
+      <img id='github-logo-project' alt='github-logo' src='../../media/github-mark-white.svg'>
+      </img>
+      <h2 id='github-content-project'>
+        <a id='github-link' href='https://github.com/tomnotthomas/GCP-cost-savings'>SHOW PROJECT IN GITHUB</a></h2>
+    </div>
   </div>
   <div className='split-screen'>
     <div id='description-box'>
+    <h2 className='description-font-h2'>Cloud Cost Savings: HouseMeister</h2>
+
     <p className='description-font'>
   Our software focuses on optimizing your financial resources within Google Cloud Platform (GCP).
   It efficiently gathers recommended cost-saving measures from GCP, consolidates these suggestions across your entire organization, and effectively schedules the implementation of these actions. This streamlined approach 
@@ -107,26 +132,7 @@ function Projects({project}) {
 </p>
 
     </div>
-    <div id='technologies-used'>
-      <div className='tech-icon'>
-        <img id='react-icon' alt='react' src='../../media/vue.js.png'></img>
-      </div>
-      <div className='tech-icon'>
-      <img id='express-icon'alt='express.js' src='../../media/Expressjs.png'></img>
-      </div>
-      <div className='tech-icon'>
-      <img id='mongo-db-icon' alt='mongodb' src='../../media/MongoDB_Logo.svg.png'></img>
-      </div>
-      <div className='tech-icon'>
-      <img id='typescript-icon' alt='typescript' src='../../media/JavaScript-logo.png'></img>
-      </div>
-    </div>
-    <div id='github'>
-      <img id='github-logo-project' alt='github-logo' src='../../media/github-mark-white.svg'>
-      </img>
-      <h2 id='github-content-project'>
-        <a id='github-link' href='https://github.com/tomnotthomas/GCP-cost-savings'>SHOW PROJECT IN GITHUB</a></h2>
-    </div>
+    
   </div>
   </>
   );
@@ -136,11 +142,32 @@ function Projects({project}) {
     <div className='split-screen'>
       <div id='video-box'>
         <iframe
-          src='https://youtube.com/embed/gWrvueJBYBE'
+          src='https://youtube.com/embed/srfJhV3f6ME'
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
           title="Embedded youtube"
         />
+        
+    </div>
+    <div id='technologies-used'>
+      <div className='tech-icon'>
+        <img id='react-icon' alt='react' src='../../media/react.svg'></img>
+      </div>
+      <div className='tech-icon'>
+      <img id='express-icon'alt='express.js' src='../../media/Expressjs.png'></img>
+      </div>
+      <div className='tech-icon'>
+      <img id='mongo-db-icon' alt='mongodb' src='../../media/MongoDB_Logo.svg.png'></img>
+      </div>
+      <div className='tech-icon'>
+      <img id='typescript-icon' alt='typescript' src='../../media/Typescript_logo_2020.svg.png'></img>
+      </div>
+    </div>
+    <div id='github'>
+      <img id='github-logo-project' alt='github-logo' src='../../media/github-mark-white.svg'>
+      </img>
+      <h2 id='github-content-project'>
+        <a id='github-link' href='https://github.com/tomnotthomas/Swiff'>SHOW PROJECT IN GITHUB</a></h2>
     </div>
   </div>
   <div className='split-screen'>
@@ -176,26 +203,7 @@ function Projects({project}) {
   </p>
 
     </div>
-    <div id='technologies-used'>
-      <div className='tech-icon'>
-        <img id='react-icon' alt='react' src='../../media/react.svg'></img>
-      </div>
-      <div className='tech-icon'>
-      <img id='express-icon'alt='express.js' src='../../media/Expressjs.png'></img>
-      </div>
-      <div className='tech-icon'>
-      <img id='mongo-db-icon' alt='mongodb' src='../../media/MongoDB_Logo.svg.png'></img>
-      </div>
-      <div className='tech-icon'>
-      <img id='typescript-icon' alt='typescript' src='../../media/Typescript_logo_2020.svg.png'></img>
-      </div>
-    </div>
-    <div id='github'>
-      <img id='github-logo-project' alt='github-logo' src='../../media/github-mark-white.svg'>
-      </img>
-      <h2 id='github-content-project'>
-        <a id='github-link' href='https://github.com/tomnotthomas/Swiff'>SHOW PROJECT IN GITHUB</a></h2>
-    </div>
+    
   </div>
   </>
   );

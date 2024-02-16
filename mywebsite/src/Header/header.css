@@ -63,6 +63,10 @@
 
   }
 
+  .header-h1-fullstack {
+    height:30%;
+  }
+
   #align-sound{
     display:flex;
     align-items: center;
@@ -654,4 +658,8 @@
   align-items: end;
   justify-content: end;
   z-index:100;
+}
+
+#tom-img{
+  width:95%;
 }
