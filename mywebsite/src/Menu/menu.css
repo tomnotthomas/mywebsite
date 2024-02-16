@@ -159,7 +159,7 @@ color: #A350A3;
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 430px) {
 
 #portfolio-menu{
   display:flex;
@@ -210,18 +210,42 @@ color: #A350A3;
 
 #img-cloud-cost-saving-app{
   width:100%;
+  height: 15vh;
 
 }
   
 #document-analysis{
   width:100%;
-  height: 20vh;
+  height: 15vh;
 }
 
 #cloud-gaming-platform{
   width:100%;
-  height: 20vh;
+  height: 15vh;
 
 }
+
+.cloud-cost-saving-app-heading{
+  margin-top:0%;
+
+  margin-bottom:5%;
+  color: #A350A3;
+  }
+  
+  .docuai-heading{
+    margin-top:5%;
+
+    margin-bottom:10%;
+
+    color:#A350A3;
+  }
+  
+  .swiff-heading{
+    margin-top:5%;
+    margin-bottom:10%;
+    color:#A350A3;
+  }
+  
+
 
 }

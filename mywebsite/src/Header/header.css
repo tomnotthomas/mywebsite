@@ -56,11 +56,14 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 430px) {
   .header-h1-hello,
   .header-h1-fullstack {
     font-size: 70px; 
+  }
 
+  #tom-img{
+    width:95%;
   }
 
   .header-h1-fullstack {
@@ -658,8 +661,4 @@
   align-items: end;
   justify-content: end;
   z-index:100;
-}
-
-#tom-img{
-  width:95%;
 }
